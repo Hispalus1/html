@@ -4,49 +4,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Tabulka v HTML</title>
 </head>
 <body>
+    <nav>
+        <ul>
+                <li ><a href="index.html">Tabulka</a></li>
+                <li ><a href="multimedia.html">Multimedia</a></li>
+                <li ><a href="fotogalerie/index.html">Fotogalerie</a></li>
+            </ul>
+        </nav>  
     <header>
-        <H1>Tabulky v HTML</H1>
+        <h1 class="h1">Tabulky v HTML</h1>
+        <br>
     </header>
     <main>
-        <h2>Slavná osobnost: Rudolf II.</h2>
-        <table border=1>
+        <h2>Slavná osobnost :<br> Tomáš Garrigue Masaryk</h2>
+        <table class="ceneter">
+            <caption>Vizitka slavné osobnosti</caption>
             <thead>
                 <tr>
                     <th>Portrét</th>
                     <th colspan="2">Základní údaje</th>
-                    <th>váznamné činy</th>
+                    <th>Význanmné činy</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td rowspan="3">Foto</td>
-                    <td colspan="2">Jméno a přijmení</td>
-                    <td rowspan="4">Díla</td>
+                    
+                    <td class="prvni" rowspan="3"><img src="img/tomas.jpg" alt="masaryk" height="700" width="450"></td>
+                    <td class="druhy" colspan="2">Tomáš Garrigue Masaryk</td>
+                    <td class="treti" rowspan="4"> 
+                        díla:<br>
+                        Blaise Pascal, jeho život a filosofie
+                        Blaise Pascal a Humeova skepse
+                        O studiu děl básnických
+                    </td>
                 </tr>
                 <tr>
-                    <td>Narození</td>
-                    <td>Úmrtí</td>
+                    <td class="druhy"><i class="fa fa-star fa-lg"></i>7. března 1850 Hodonín, Rakouské císařství</td>
+                    <td class="druhy"><i class="fa fa-times fa-lg"></i>14. září 1937 (ve věku 87 let) Lány, Československo</td>
                 </tr>
                 <tr>
-                    <td colspan="2">stručná charakteristika</td>
+                    <td rowspan="2" colspan="2" class="druhy">Byl to český pedagog, politik, filozof a hlavně člověk,
+ který velmi přemýšlel nad věcmi, ať už politickými nebo všedními. Vždy je bral vážně a posuzoval je ze všech stran. 
+Myslím, že Masaryk byl velký myslitel, a to, že byl filozof, je ve velké míře znát na jeho pracích, textech a myšlenkách.</td>
                 </tr>
                 <tr>
-                    <td>Popisek fotky</td>
+                    <td class="prvni">Prezident Masaryk</td>
                 </tr>
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="4">Odkaz na Wikipedii</td>
+                    <td colspan="4" class="ctvrty">Odkaz na wikipedii: <a href="https://cs.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Garrigue_Masaryk">https://cs.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Garrigue_Masaryk</a></td>
                 </tr>
-
             </tfoot>
-
         </table>
+        <h2>Značky a atributy tabulky</h2>
+        <dl>
+            <dt>table</dt>
+            <dd>Značka ohraničující celou tabulku</dd>
+            <dt>thead</dt>
+            <dd>Zahlaví Tabulky</dd>
+            <dt>colspan</dt>
+            <dd>atribut zajišťující rozpětí přes několik sloupců</dd>
+            <dt>rowspan</dt>
+            <dd>atribut zajišťující rozpětí přes několik řádků</dd>
+        </dl>
     </main>
-    <footer></footer>
+    <footer> &copy 2021 - SŠPU Opava - třída IT1 - autor: COCONUT</footer>
     
 </body>
 </html>

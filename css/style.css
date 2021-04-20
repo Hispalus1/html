@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-image:linear-gradient(rgb(147, 153, 149), rgba(238, 121, 117, 0.8));
+    border-radius: 2cm;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif ;
+    background-image:linear-gradient(rgb(6, 37, 41), rgba(96, 23, 21, 0.8)) ;
+    background-position: center;
+    box-sizing: border-box;
+
+}
+
+main {
+    background-image: linear-gradient(rgb(6, 37, 41), rgba(96, 23, 21, 0.8)) ;
+    width: 1500px;
+    margin:50px auto; /*vnější okraj*/
+    border: 3px solid black; /*ohraničení*/
+    padding: 10px; /*vnitřní odsazení*/
+}
+footer{
+    width: 100%;
+    height: 20px;
+    background-color: grey;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    color:black;
+    border-bottom: 1px solid  blanchedalmond ;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    font-size: 150%;
+    text-transform: uppercase;
+    background-image:linear-gradient(rgb(147, 153, 149), rgba(238, 121, 117, 0.8));
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+    font-size: 120%;
+}
+
+ul {
+    margin-left: 60px;
+    text-align: left;
+
+
+}
+
+ul li{ 
+  list-style: none;
+  display: inline-block;
+  line-height: 100px;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e1e1e;
+    padding: 0 20px;
+    
+}
+dl{
+    text-align: center;
+}
+dd {
+    text-align: center;
+}
+dt {
+    text-align: center;
+}
+
+.ul{
+    text-align: unset;
+}
+.li {
+    text-decoration: unset;
+}
+.h1{
+    font-size: 500%;
+}
+.img1{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.video1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+figcaption{
+    text-align: center;
+}
+.audio1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.iframe1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

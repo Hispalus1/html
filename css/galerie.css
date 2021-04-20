@@ -1,0 +1,66 @@
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  margin-bottom: 50px;
+}
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 23%;
+  padding: 10px;
+}
+
+div.gallery img:hover {
+  transform:translateY(-20px);
+  transition-duration: 1s;
+
+
+}
+
+div.gallery img {
+  width: 346px;
+  height: 200px;
+  border: none;
+  transition: 1s;
+
+}
+
+div.desc {
+  padding: 25px;
+  padding-top: 40px ;
+  text-align: center;
+  border: 3px solid black;
+  margin-top: -35px;
+  color: white;
+  background-image: linear-gradient(rgb(6, 37, 41), rgba(96, 23, 21, 0.8)) ;
+}
+
+.clear {
+  clear: both;
+}
+
+@media only screen and (max-width: 1200px) {
+  main {
+      width: 90%;
+  }
+
+  div.gallery {
+      width: 30%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+  div.gallery {
+      width: 45%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+  div.gallery {
+      width: 100%;
+    }
+}
